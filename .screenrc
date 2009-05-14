@@ -1,0 +1,9 @@
+defbce "on"
+term xterm-color
+
+hardstatus on
+hardstatus alwayslastline
+hardstatus string "[%02c] % %-w%{=b bw}%n %t%{-}%+w"
+
+startup_message off
+scrollback 1000000
