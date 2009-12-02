@@ -7,3 +7,6 @@ hardstatus string "[%02c] % %-w%{=b bw}%n %t%{-}%+w"
 
 startup_message off
 scrollback 1000000
+
+bind ^E encoding euc
+bind ^U encoding utf8

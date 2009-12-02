@@ -110,6 +110,9 @@ alias df="df -h"
 
 alias su="su -l"
 
+alias sgi32="sudo env ARCHFLAGS="-Os -arch i386 -fno-common" gem install —no-ri —no-rdoc"
+alias sgi64="sudo env ARCHFLAGS="-Os -arch x86_64 -fno-common" gem install —no-ri —no-rdoc"
+alias sgi="sgi64"
 ## terminal configuration
 #
 unset LSCOLORS
