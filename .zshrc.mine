@@ -1,0 +1,15 @@
+#export JRUBY_HOME=/opt/local/share/java/jruby/
+export PATH=~/bin:/usr/local/bin:/opt/local/bin:/opt/local/sbin:$PATH
+export SVN_EDITOR=/usr/bin/vim
+
+export PATH=/usr/local/share/pear/bin/:/usr/local/mysql/bin:$PATH
+
+#alias screen='/usr/local/bin/screen'
+alias mysql='/usr/local/mysql/bin/mysql'
+alias mysqladmin='/usr/local/mysql/bin/mysqladmin'
+
+#export ARCHFLAGS="--arch x86_64"
+export ARCHFLAGS='-arch x86_64'
+export PLATFORM=iPhoneOS
+export VERSION=3.1
+export iPhoneSDK=/Developer/Platforms/${PLATFORM}.platform/Developer/SDKs/${PLATFORM}${VERSION}.sdk/System/Library/Frameworks
